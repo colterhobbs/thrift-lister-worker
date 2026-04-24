@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1775157905768,
+      "tag": "0000_simple_pride",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1775158081521,
+      "tag": "0001_curly_jack_murdock",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1775159927691,
+      "tag": "0002_far_sway",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1775281418253,
+      "tag": "0003_magical_cargill",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1775681718279,
+      "tag": "0004_rapid_morlun",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1775716935850,
+      "tag": "0005_striped_trish_tilby",
+      "breakpoints": true
+    }
+  ]
+}

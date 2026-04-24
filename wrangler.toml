@@ -1,0 +1,29 @@
+name = "thrift-lister-api"
+main = "worker/index.ts"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "thrift-lister"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+
+[vars]
+NODE_ENV = "production"
+
+# Secrets (set via `wrangler secret put <NAME>`):
+# JWT_SECRET
+# GOOGLE_CLIENT_ID
+# GOOGLE_CLIENT_SECRET
+# OWNER_OPEN_ID
+# BUILT_IN_FORGE_API_URL
+# BUILT_IN_FORGE_API_KEY
+# EBAY_CLIENT_ID
+# EBAY_CLIENT_SECRET
+# EBAY_DEV_ID
+# EBAY_REDIRECT_URI
+# ETSY_API_KEY
+# ETSY_SHARED_SECRET
+
+[build]
+command = "pnpm install && pnpm build"
