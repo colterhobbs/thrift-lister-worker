@@ -6,7 +6,7 @@ compatibility_flags = ["nodejs_compat"]
 [[d1_databases]]
 binding = "DB"
 database_name = "thrift-lister"
-database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+database_id = "94713f15-7c2d-44f4-bb27-780a0d38869a"
 
 [vars]
 NODE_ENV = "production"
